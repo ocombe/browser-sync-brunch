@@ -3,7 +3,7 @@ browser-sync-brunch
 Adds automatic browser reloading support to
 [brunch](http://brunch.io) when using the `brunch watch` command.
 
-The plugin uses [BrowserSync](https://github.com/shakyShane/browser-sync) technology to keep multiple browsers & devices in sync when building websites.
+The plugin uses [BrowserSync](http://browsersync.io/) technology to keep multiple browsers & devices in sync when building websites.
 
 ##Features from BrowserSync
 1. **Scroll** - I can keep your pages in sync when scrolling.

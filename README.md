@@ -18,6 +18,7 @@ The plugin uses [BrowserSync](http://browsersync.io/) technology to keep multipl
 
 ## Installation
 Make sure that you have removed [auto-reload brunch](https://github.com/brunch/auto-reload-brunch) from your package.json if you were using it.
+
 Install the plugin via npm with `npm install --save browser-sync-brunch`.
 
 Or, do manual install:

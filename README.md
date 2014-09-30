@@ -48,3 +48,5 @@ exports.config: {
   }
 }
 ```
+
+**Be careful, this plugin won't work with Brunch workers enabled because of [an error in Brunch source code](https://github.com/brunch/brunch/issues/879).***

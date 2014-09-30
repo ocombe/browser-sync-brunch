@@ -1,3 +1,6 @@
+# 0.0.4 (30 September 2014)
+* Disable the plugin when building (enable only for watch)
+
 # 0.0.3 (30 September 2014)
 * Code cleanup
 * A warning is shown when workers are enabled in Brunch

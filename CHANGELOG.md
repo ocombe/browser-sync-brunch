@@ -1,3 +1,6 @@
+# 0.0.5 (08 October 2014)
+* Always reload when the file is not injectable (html files for example)
+
 # 0.0.4 (30 September 2014)
 * Disable the plugin when building (enable only for watch)
 

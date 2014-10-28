@@ -1,3 +1,7 @@
+# 0.0.6 (28 October 2014)
+* Fixed config not working (#3)
+* Update to browsersync ~1.6.1
+
 # 0.0.5 (08 October 2014)
 * Always reload when the file is not injectable (html files for example)
 

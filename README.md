@@ -32,6 +32,18 @@ In most cases, browser-sync-brunch works out of the box without any further
 configuration. Stylesheet and image changes will be applied seamlessly, and any other
 changes will trigger a page refresh.
 
+## Caveat
+Because of a disputable assumption in BrowserSync’s code (we’re working with them to fix this), any `--server` in your CLI (e.g. `brunch watch --server`) will be incorrectly interpreted by BrowserSync as asking *it* to run its own server, which in turn will result in an incorrect Socket.IO binding.  Besides preventing your pages from using BrowserSync, it will start a fast loop of reconnections with Socket.IO, which will quickly consume a lot of CPU.
+
+If you wish to run Brunch's built-in server on watch, either use its configuration file instead of the CLI option:
+
+```coffeescript
+server:
+  run: true
+```
+
+…or use the CLI option shorthand, `-s`, instead of `--server`.
+
 ### Brunch plugin settings
 If customization is needed or desired, settings can be modified in your brunch config file (such as `brunch-config.coffee`).
 You can use any BrowserSync option, refer to [their documentation](http://www.browsersync.io/docs/options/) for the complete list.

@@ -1,6 +1,11 @@
+# 0.0.7 (31 October 2014)
+* General cleanup and code optimization
+* Documentation warning about current use of `--server` in Brunch's CLI
+* Update to BrowserSync 1.6.2
+
 # 0.0.6 (28 October 2014)
 * Fixed config not working (#3)
-* Update to browsersync ~1.6.1
+* Update to BrowserSync 1.6.1
 
 # 0.0.5 (08 October 2014)
 * Always reload when the file is not injectable (html files for example)

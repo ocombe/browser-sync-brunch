@@ -1,3 +1,6 @@
+# 0.0.8 (02 November 2014)
+* Update to BrowserSync 1.6.3 to fix CLI issues (with `--server`)
+
 # 0.0.7 (31 October 2014)
 * General cleanup and code optimization
 * Documentation warning about current use of `--server` in Brunch's CLI

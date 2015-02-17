@@ -1,3 +1,6 @@
+#0.0.9 (17 February 2015)
+* Update to BrowserSync 2.1.1
+
 # 0.0.8 (02 November 2014)
 * Update to BrowserSync 1.6.3 to fix CLI issues (with `--server`)
 

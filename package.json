@@ -1,6 +1,6 @@
 {
   "name": "browser-sync-brunch",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Adds browser-sync support to brunch for automatic browser reloading and much more",
   "author": "Olivier Combe <olivier.combe@gmail.com>",
   "contributors": [

@@ -6,6 +6,7 @@
   "contributors": [
     "Christophe Porteneuve <tdd@tddsworld.com>"
   ],
+  "license": "MIT",
   "homepage": "https://github.com/ocombe/browser-sync-brunch",
   "keywords": [
     "brunchplugin",

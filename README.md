@@ -5,7 +5,7 @@ Adds automatic browser reloading support to
 
 The plugin uses [BrowserSync](http://browsersync.io/) technology to keep multiple browsers & devices in sync when building websites.
 
-##Features from BrowserSync
+## Features from BrowserSync
 1. **Scroll** - I can keep your pages in sync when scrolling.
 2. **Forms** - You fill out a form in one browser, I'll copy the data to all the others.
 3. **Links** - I'll watch your clicks and make all the other browsers follow you.
